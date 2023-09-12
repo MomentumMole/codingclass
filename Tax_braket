@@ -1,0 +1,29 @@
+def main():
+
+    income = int(input('please input your taxable income: '))
+    print()
+    if income <= 11_000:
+        tax = .1 * income
+        bracket = '10%'
+    elif income <= 44_725:
+        tax = .12 * (income -11_000) + 1100
+        bracket = '12%'
+    elif income <= 95_375:
+        tax = .22 * (income -44_725) + 5_147
+        bracket = '22%'
+    elif income <= 182_100:
+        tax = .24 * (income -95_375) + 16_290
+        bracket = '24%'
+    elif income <= 231_250:
+        tax = .32 * (income -182_100) + 37_104
+        bracket = '32%'
+    elif income <= 578_125:
+        tax = .35 * (income -231_250) + 53_832
+        bracket = '35%'
+    else:
+        tax = 174_238.25 + .37 * (income - 578_125)
+        bracket = '37%'
+    print("with your income of", format(income, ',d') , "you are in the", bracket, "income bracket.")
+    print("the US Federal tax on an income of", income, 'is',tax)
+
+main()

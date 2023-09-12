@@ -1,0 +1,16 @@
+def main():
+
+    pom = float(input("please enter you number here: "))
+    if pom < 0:
+        print()
+        print('YOUR NUMBER IS NEG-ATIVE')
+    elif pom > 0:
+        print()
+        print('YOUR NUMBER IS POSITIVE')
+    else:
+        pom = 0
+        print()
+        print('YOU PICKED ZERO... WHY')
+
+
+main()
