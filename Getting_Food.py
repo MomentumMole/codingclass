@@ -21,5 +21,58 @@ def main():
                 print("Courner Café")
                 print("Mama's Fine Italian")
                 print("The Chef's Kitchen")
+            else:
+                Glute == "yes"
+                print("here are you resturant choices:")
+                print()                
+                print("Main Street Pizza")
+                print("Courner Café")
+                print("The Chef's Kitchen")
+                
+        else:
+            Vegan == "yes"
+            if Glute == "no":
+                print("here are you resturant choices:")
+                print()                
+                print("Courner Café")
+                print("The Chef's Kitchen")
+            else:
+                Glute == "no"
+                print("here are you resturant choices:")
+                print()                
+                print("Courner Café")
+                print("The Chef's Kitchen")
+    else:
+        Vegie == "yes"
+        if Vegan == "no":
+            if Glute == "no":
+                print("here are you resturant choices:")
+                print()
+                print("Main Street Pizza")
+                print("Courner Café")
+                print("Mama's Fine Italian")
+                print("The Chef's Kitchen")
+            else:
+                Glute == "yes"
+                print("here are you resturant choices:")
+                print()                
+                print("Main Street Pizza")
+                print("Courner Café")
+                print("The Chef's Kitchen")
+                
+        else:
+            Vegan == "yes"
+            if Glute == "no":
+                print("here are you resturant choices:")
+                print()                
+                print("Courner Café")
+                print("The Chef's Kitchen")
+            else:
+                Glute == "no"
+                print("here are you resturant choices:")
+                print()                
+                print("Courner Café")
+                print("The Chef's Kitchen")
+
 
 main()    
