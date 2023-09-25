@@ -3,7 +3,7 @@ def main():
     pom = float(input("please enter you number here: "))
     if pom < 0:
         print()
-        print('YOUR NUMBER IS NEG-ATIVE')
+        print('YOUR NUMBER IS NEGATIVE')
     elif pom > 0:
         print()
         print('YOUR NUMBER IS POSITIVE')
