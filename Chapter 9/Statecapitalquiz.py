@@ -28,10 +28,11 @@ def statefun():
                     'Washington':'Olympia' ,'West Virginia':'Charleston','Wisconsin':'Madison',
                     'Wyoming':'Cheyenne',}
         statelist = list(statecap)
-        randindex = random.randint(1,50)
+        x = 49
+        randindex = random.randint(1,x)
+        x -= 1
         chosenst = statelist[randindex]
         statequiz = statecap.pop(chosenst, 'stinky')
-        print(chosenst, statequiz)
         print()
         print('what is the capital of',chosenst,'? ')
         Quiziegquess = input()
