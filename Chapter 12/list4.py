@@ -17,7 +17,5 @@ def biggest(y):
         if y[0] > y[1]:
             print(y[0])
         else:
-            print([1])
-        
-
+            print(y[1])
 main()
